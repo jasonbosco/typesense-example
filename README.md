@@ -5,7 +5,7 @@ collection schema.
 
 To run:
  - Install dependencies (yarn or npm install)
- - Add server and key to ```src/index.ts``
+ - Add server and key to ```src/index.ts```
  - Compile the code: ```yarn build```
  - Run the example: ```node dist/index.js```
 
