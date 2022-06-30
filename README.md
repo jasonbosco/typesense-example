@@ -18,15 +18,15 @@ The output recieved when running is:
 IMPORTED [ { success: true }, { success: true } ]
 FAILED []
 ObjectNotFound: Request failed with HTTP code 404 | Server said: Not Found
-    at ObjectNotFound.TypesenseError [as constructor] (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/Errors/TypesenseError.js:23:28)
-    at new ObjectNotFound (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/Errors/ObjectNotFound.js:25:42)
-    at ApiCall.customErrorForResponse (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:334:21)
-    at /Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:195:98
-    at step (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:33:23)
-    at Object.next (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:14:53)
-    at step (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:18:139)
-    at Object.next (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:14:53)
-    at fulfilled (/Users/brentwilliams/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:5:58)
+    at ObjectNotFound.TypesenseError [as constructor] (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/Errors/TypesenseError.js:23:28)
+    at new ObjectNotFound (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/Errors/ObjectNotFound.js:25:42)
+    at ApiCall.customErrorForResponse (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:334:21)
+    at /Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:195:98
+    at step (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:33:23)
+    at Object.next (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:14:53)
+    at step (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:18:139)
+    at Object.next (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:14:53)
+    at fulfilled (/Users/bob/projects/typesense/node_modules/typesense/lib/Typesense/ApiCall.js:5:58)
     at processTicksAndRejections (internal/process/task_queues.js:93:5) {
   httpStatus: 404
 }
