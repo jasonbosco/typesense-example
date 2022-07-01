@@ -7,11 +7,11 @@ const run = async () => {
 
     const client = new Client({
         nodes: [{
-            host: 'your typesense server',
-            port: 443,
-            protocol: "https",
+            host: 'localhost',
+            port: 8108,
+            protocol: "http",
         }],
-        apiKey: 'your api-key',
+        apiKey: 'xyz',
         numRetries: 3, 
         connectionTimeoutSeconds: 120, 
         logLevel: "error",
@@ -85,8 +85,11 @@ const run = async () => {
           ]
     }
 
-    await client.collections(collection).update(update_schema);
+    let results = await client.collections(collection).update(update_schema);
+    console.log(results)
 
+    results = await client.collections(collection).retrieve();
+    console.log(results)
 }   
 
 run().catch(console.log).finally(() => process.exit(0));
